@@ -8533,6 +8533,11 @@ NS Package M08A</description>
 pot</text>
 <text x="-53.34" y="48.26" size="1.778" layer="91">bypass switch
 POWER LED</text>
+<text x="-55.88" y="-15.24" size="1.778" layer="91">Clipping stage
+-LM308 opamp
+-(1M//1M)//(1K+40M)=494K ohm input impedance</text>
+<text x="-30.48" y="71.12" size="1.778" layer="91">Based on:
+https://www.electrosmash.com/proco-rat</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="15.24" y="17.78" smashed="yes">
