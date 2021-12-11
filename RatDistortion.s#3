@@ -10149,6 +10149,162 @@ NS Package M08A</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="PTV09A-4225F-B104">
+<packages>
+<package name="PTV09">
+<wire x1="-5" y1="1" x2="5" y2="1" width="0.127" layer="21"/>
+<wire x1="5" y1="1" x2="5" y2="13" width="0.127" layer="21"/>
+<wire x1="5" y1="13" x2="-5" y2="13" width="0.127" layer="21"/>
+<wire x1="-5" y1="13" x2="-5" y2="1" width="0.127" layer="21"/>
+<text x="-3" y="14" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="10" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.5" y="0" drill="1"/>
+<pad name="2" x="0" y="0" drill="1"/>
+<pad name="3" x="2.5" y="0" drill="1"/>
+<pad name="NC1" x="-4.4" y="7" drill="2.2"/>
+<pad name="NC2" x="4.4" y="7" drill="2.2"/>
+</package>
+</packages>
+<symbols>
+<symbol name="POT">
+<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="5.08" y="0" size="1.27" layer="94">&gt;NAME</text>
+<pin name="2" x="-7.62" y="0" visible="off" length="short"/>
+<pin name="1" x="0" y="10.16" visible="off" length="short" rot="R270"/>
+<pin name="3" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PTV09A-4225F-B104" prefix="VR">
+<description>100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1 Turn Carbon 0.05W, 1/20W PC Pins, Board Locks (NOT RA) &lt;a href="https://pricing.snapeda.com/parts/PTV09A-4225F-B104/Bourns/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="POT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PTV09">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer Detent 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks "/>
+<attribute name="MF" value="Bourns"/>
+<attribute name="MP" value="PTV09A-4225F-B104"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/PTV09A-4225F-B104/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="2N5458">
+<packages>
+<package name="TO92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.781"/>
+<wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.3185"/>
+<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.127" layer="21" curve="-111.1"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-2.2537" y1="-0.254" x2="-0.2863" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="0.2863" y1="-0.254" x2="2.2537" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.127" layer="51" curve="-34.2936"/>
+<text x="3.17848125" y="0.635696875" size="1.271390625" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.180840625" y="-1.27233125" size="1.27233125" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.635934375" y="0.635934375" size="1.27186875" layer="51" ratio="10">2</text>
+<text x="-2.159690625" y="0" size="1.2704" layer="51" ratio="10">3</text>
+<text x="1.144340625" y="0" size="1.271490625" layer="51" ratio="10">1</text>
+<pad name="1" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="3" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+</package>
+</packages>
+<symbols>
+<symbol name="2N5458">
+<wire x1="0.9525" y1="-6.0325" x2="0.9525" y2="-4.1275" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0.9525" x2="1.42875" y2="0.9525" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-0.9525" x2="1.42875" y2="-0.9525" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0" x2="1.42875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.42875" y1="0.9525" x2="1.11125" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.42875" y1="0" x2="1.11125" y2="0.3175" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0" x2="2.2225" y2="-0.3175" width="0.1524" layer="94"/>
+<wire x1="2.2225" y1="-0.635" x2="1.905" y2="-0.9525" width="0.1524" layer="94"/>
+<wire x1="1.11125" y1="0.635" x2="1.11125" y2="0.3175" width="0.1524" layer="94"/>
+<wire x1="2.2225" y1="-0.3175" x2="2.2225" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="6.0325" x2="1.74625" y2="6.0325" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="4.1275" x2="1.74625" y2="4.1275" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="6.0325" x2="0.9525" y2="5.715" width="0.1524" layer="94"/>
+<wire x1="0.9525" y1="4.445" x2="1.27" y2="4.1275" width="0.1524" layer="94"/>
+<wire x1="0.9525" y1="5.715" x2="0.9525" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="1.42875" y1="-4.1275" x2="0.9525" y2="-4.1275" width="0.1524" layer="94"/>
+<wire x1="1.42875" y1="-4.1275" x2="1.74625" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="1.42875" y1="-6.0325" x2="0.9525" y2="-6.0325" width="0.1524" layer="94"/>
+<wire x1="1.74625" y1="-5.715" x2="1.42875" y2="-6.0325" width="0.1524" layer="94"/>
+<wire x1="1.74625" y1="-4.445" x2="1.74625" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="2.06375" y1="4.445" x2="1.74625" y2="4.1275" width="0.1524" layer="94"/>
+<wire x1="2.06375" y1="5.08" x2="2.06375" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="2.06375" y1="5.08" x2="1.5875" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.06375" y1="5.715" x2="1.74625" y2="6.0325" width="0.1524" layer="94"/>
+<wire x1="0.79375" y1="-0.79375" x2="-0.79375" y2="-0.79375" width="0.1524" layer="94"/>
+<wire x1="-0.79375" y1="-0.79375" x2="-0.79375" y2="0.79375" width="0.1524" layer="94"/>
+<wire x1="-0.79375" y1="0.79375" x2="0.79375" y2="0.79375" width="0.1524" layer="94"/>
+<wire x1="0.79375" y1="0.79375" x2="0.79375" y2="-0.79375" width="0.1524" layer="94"/>
+<circle x="0" y="5.08" radius="0.635" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="0.635" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.1524" layer="94" curve="180"/>
+<text x="0" y="-5.082759375" size="0.406621875" layer="99" align="center">SpiceOrder 1</text>
+<text x="0" y="5.08796875" size="0.4070375" layer="99" align="center">SpiceOrder 2</text>
+<text x="0" y="0" size="0.4068875" layer="99" align="center">SpiceOrder 3</text>
+<text x="3.810140625" y="3.810140625" size="1.77806875" layer="95">&gt;NAME</text>
+<text x="3.813059375" y="-3.813059375" size="1.77943125" layer="96">&gt;VALUE</text>
+<pin name="D" x="0" y="-5.08" visible="off" length="point" direction="pas"/>
+<pin name="G" x="0" y="5.08" visible="off" length="point" direction="pas"/>
+<pin name="S" x="0" y="0" visible="off" length="point" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2N5458" prefix="JN">
+<description>TO-92 &lt;a href="https://pricing.snapeda.com/parts/2N5458/ON%20Semiconductor/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="2N5458" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" JFET N-Channel 25 V 310 mW Through Hole TO-92 (TO-226) "/>
+<attribute name="MF" value="ON Semiconductor"/>
+<attribute name="MP" value="2N5458"/>
+<attribute name="PACKAGE" value="E-PKG AXIAL-LEADED-2 ON Semiconductor"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10210,6 +10366,10 @@ NS Package M08A</description>
 <part name="JP7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="-BIGPOGO" package3d_urn="urn:adsk.eagle:package:6240953/1"/>
 <part name="JP8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="-BIGPOGO" package3d_urn="urn:adsk.eagle:package:6240953/1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="VR1" library="PTV09A-4225F-B104" deviceset="PTV09A-4225F-B104" device=""/>
+<part name="VR2" library="PTV09A-4225F-B104" deviceset="PTV09A-4225F-B104" device=""/>
+<part name="VR3" library="PTV09A-4225F-B104" deviceset="PTV09A-4225F-B104" device=""/>
+<part name="JN1" library="2N5458" deviceset="2N5458" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10220,11 +10380,9 @@ NS Package M08A</description>
 -Low pass filter
 -Voltage divider (4.5 volts as virtual GND)</text>
 <text x="0" y="22.86" size="1.778" layer="91">200mA</text>
-<text x="7.62" y="-20.32" size="1.778" layer="91">
+<text x="20.32" y="-20.32" size="1.778" layer="91">
 100k pot</text>
-<text x="-53.34" y="48.26" size="1.778" layer="91">bypass switch
-POWER LED
-pods</text>
+<text x="-53.34" y="48.26" size="1.778" layer="91">pods</text>
 <text x="-55.88" y="-15.24" size="1.778" layer="91">Clipping stage
 -LM308 or OP07DP opamp
 -(1M//1M)//(1K+40M)=494K ohm input impedance</text>
@@ -10303,19 +10461,19 @@ https://stinkfoot.se/archives/2233</text>
 <attribute name="NAME" x="-52.07" y="-64.135" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-52.07" y="-55.88" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP5" gate="G$1" x="5.08" y="-139.7" smashed="yes">
-<attribute name="NAME" x="-1.27" y="-136.525" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1.27" y="-144.78" size="1.778" layer="96"/>
+<instance part="JP5" gate="G$1" x="15.24" y="-147.32" smashed="yes">
+<attribute name="NAME" x="8.89" y="-144.145" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.89" y="-152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="JP6" gate="G$1" x="5.08" y="-149.86" smashed="yes">
-<attribute name="NAME" x="-1.27" y="-146.685" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1.27" y="-154.94" size="1.778" layer="96"/>
+<instance part="JP6" gate="G$1" x="15.24" y="-157.48" smashed="yes">
+<attribute name="NAME" x="8.89" y="-154.305" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.89" y="-162.56" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="-48.26" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="-50.8" y="-66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="-5.08" y="-152.4" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="-154.94" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="-10.16" y="-160.02" smashed="yes">
+<attribute name="VALUE" x="-12.7" y="-162.56" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="-17.78" y="-27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="-18.161" y="-26.416" size="1.778" layer="95" rot="R90"/>
@@ -10439,6 +10597,19 @@ https://stinkfoot.se/archives/2233</text>
 <instance part="GND11" gate="1" x="-35.56" y="-203.2" smashed="yes">
 <attribute name="VALUE" x="-38.1" y="-205.74" size="1.778" layer="96"/>
 </instance>
+<instance part="VR1" gate="G$1" x="15.24" y="-22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.24" y="-27.94" size="1.27" layer="94" rot="R270"/>
+</instance>
+<instance part="VR2" gate="G$1" x="-50.8" y="-96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="-50.8" y="-101.6" size="1.27" layer="94" rot="R270"/>
+</instance>
+<instance part="VR3" gate="G$1" x="-10.16" y="-147.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="-15.24" y="-147.32" size="1.27" layer="94" rot="R180"/>
+</instance>
+<instance part="JN1" gate="G$1" x="-22.86" y="-121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="-26.670140625" y="-118.109859375" size="1.77806875" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-19.046940625" y="-118.106940625" size="1.77943125" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10468,8 +10639,9 @@ https://stinkfoot.se/archives/2233</text>
 <label x="7.62" y="-43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-27.94" y1="-121.92" x2="-27.94" y2="-124.46" width="0.1524" layer="91"/>
-<label x="-27.94" y="-121.92" size="1.778" layer="95"/>
+<label x="-17.78" y="-116.84" size="1.778" layer="95"/>
+<pinref part="JN1" gate="G$1" pin="D"/>
+<wire x1="-17.78" y1="-116.84" x2="-17.78" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -10528,10 +10700,9 @@ https://stinkfoot.se/archives/2233</text>
 <segment>
 <pinref part="JP6" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="2.54" y1="-149.86" x2="-5.08" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-149.86" x2="-10.16" y2="-149.86" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-149.86"/>
-<wire x1="-10.16" y1="-149.86" x2="-10.16" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-157.48" x2="-10.16" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="VR3" gate="G$1" pin="1"/>
+<junction x="-10.16" y="-157.48"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -10623,21 +10794,15 @@ https://stinkfoot.se/archives/2233</text>
 <junction x="0" y="-27.94"/>
 <wire x1="0" y1="-22.86" x2="2.54" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-22.86" x2="5.08" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-22.86" x2="2.54" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="2.54" y="-22.86"/>
-<wire x1="2.54" y1="-20.32" x2="5.08" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="2.54" y1="-53.34" x2="0" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="0" y1="-53.34" x2="0" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="0" y="-35.56"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="-33.02" x2="15.24" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="-33.02" x2="15.24" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="-22.86" x2="10.16" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="VR1" gate="G$1" pin="3"/>
+<pinref part="VR1" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="-15.24" x2="2.54" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -10662,12 +10827,13 @@ https://stinkfoot.se/archives/2233</text>
 <label x="60.96" y="-50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="-96.52" x2="-53.34" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-96.52" x2="-50.8" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-96.52" x2="-53.34" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-93.98" x2="-50.8" y2="-93.98" width="0.1524" layer="91"/>
-<junction x="-53.34" y="-96.52"/>
-<label x="-60.96" y="-96.52" size="1.778" layer="95"/>
+<pinref part="VR2" gate="G$1" pin="2"/>
+<pinref part="VR2" gate="G$1" pin="3"/>
+<wire x1="-50.8" y1="-88.9" x2="-60.96" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-88.9" x2="-60.96" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-96.52" x2="-71.12" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="-60.96" y="-96.52"/>
+<label x="-71.12" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -10728,18 +10894,25 @@ https://stinkfoot.se/archives/2233</text>
 <junction x="-30.48" y="-50.8"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="OUTSTAGE" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="-96.52" x2="-12.7" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="-27.94" y="-96.52"/>
+<label x="-20.32" y="-96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="-48.26" y1="-132.08" x2="-58.42" y2="-132.08" width="0.1524" layer="91"/>
+<label x="-63.5" y="-132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="-38.1" y1="-96.52" x2="-40.64" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="VR2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -10748,8 +10921,11 @@ https://stinkfoot.se/archives/2233</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="-132.08" x2="-38.1" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-132.08" x2="-38.1" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-132.08" x2="-33.02" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-132.08" x2="-30.48" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="-38.1" y="-132.08"/>
+<wire x1="-30.48" y1="-132.08" x2="-30.48" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="JN1" gate="G$1" pin="G"/>
+<wire x1="-30.48" y1="-121.92" x2="-27.94" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -10757,8 +10933,11 @@ https://stinkfoot.se/archives/2233</text>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="-22.86" y1="-134.62" x2="-27.94" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-134.62" x2="-27.94" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="-27.94" y="-134.62"/>
+<wire x1="-27.94" y1="-134.62" x2="-27.94" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-124.46" x2="-22.86" y2="-124.46" width="0.1524" layer="91"/>
+<pinref part="JN1" gate="G$1" pin="S"/>
+<wire x1="-22.86" y1="-124.46" x2="-22.86" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -10766,12 +10945,14 @@ https://stinkfoot.se/archives/2233</text>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="-134.62" x2="-10.16" y2="-134.62" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-134.62" x2="-10.16" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="VR3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="-139.7" x2="2.54" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-147.32" x2="12.7" y2="-147.32" width="0.1524" layer="91"/>
+<pinref part="VR3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -10785,6 +10966,14 @@ https://stinkfoot.se/archives/2233</text>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="-200.66" x2="-58.42" y2="-205.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="VR1" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="-33.02" x2="25.4" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-33.02" x2="25.4" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
