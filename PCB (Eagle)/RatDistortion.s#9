@@ -8674,7 +8674,7 @@ NS Package M08A</description>
 -Voltage divider (4.5 volts as virtual GND)</text>
 <text x="0" y="22.86" size="1.778" layer="91">200mA</text>
 <text x="7.62" y="-20.32" size="1.778" layer="91">
-pot</text>
+100k pot</text>
 <text x="-53.34" y="48.26" size="1.778" layer="91">bypass switch
 POWER LED</text>
 <text x="-55.88" y="-15.24" size="1.778" layer="91">Clipping stage
@@ -8684,8 +8684,9 @@ POWER LED</text>
 https://www.electrosmash.com/proco-rat</text>
 <text x="12.7" y="-58.42" size="1.778" layer="91">// OP07DP</text>
 <text x="-45.72" y="-93.98" size="1.778" layer="91">
-pot</text>
-<text x="-58.42" y="-86.36" size="1.778" layer="91">Tone control stage</text>
+100k pot</text>
+<text x="-58.42" y="-86.36" size="1.778" layer="91">Tone control stage
+-Variable low pass filter</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="15.24" y="17.78" smashed="yes">

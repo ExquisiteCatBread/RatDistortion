@@ -10222,9 +10222,7 @@ NS Package M08A</description>
 <text x="0" y="22.86" size="1.778" layer="91">200mA</text>
 <text x="7.62" y="-20.32" size="1.778" layer="91">
 100k pot</text>
-<text x="-53.34" y="48.26" size="1.778" layer="91">bypass switch
-POWER LED
-pods</text>
+<text x="-53.34" y="48.26" size="1.778" layer="91">pods</text>
 <text x="-55.88" y="-15.24" size="1.778" layer="91">Clipping stage
 -LM308 or OP07DP opamp
 -(1M//1M)//(1K+40M)=494K ohm input impedance</text>

@@ -142,16 +142,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="1" y2="0" width="0" layer="20"/>
 <wire x1="1" y1="0" x2="54" y2="0" width="0" layer="20"/>
-<wire x1="54" y1="0" x2="55" y2="0" width="0" layer="20"/>
-<wire x1="55" y1="0" x2="55" y2="1" width="0" layer="20"/>
 <wire x1="55" y1="1" x2="55" y2="44" width="0" layer="20"/>
-<wire x1="55" y1="44" x2="55" y2="45" width="0" layer="20"/>
-<wire x1="55" y1="45" x2="54" y2="45" width="0" layer="20"/>
 <wire x1="54" y1="45" x2="1" y2="45" width="0" layer="20"/>
-<wire x1="1" y1="45" x2="0" y2="45" width="0" layer="20"/>
-<wire x1="0" y1="45" x2="0" y2="44" width="0" layer="20"/>
 <circle x="7" y="58" radius="8.5" width="0.1524" layer="47"/>
 <circle x="27.5" y="58" radius="8.5" width="0.1524" layer="47"/>
 <circle x="48" y="58" radius="8.5" width="0.1524" layer="47"/>
@@ -159,7 +152,6 @@
 <dimension x1="15.5" y1="58" x2="-1.5" y2="58" x3="-1.5" y3="58" textsize="1.778" layer="47" dtype="diameter"/>
 <dimension x1="15.5" y1="58" x2="19" y2="58" x3="17.25" y3="69" textsize="1.778" layer="47" dtype="diameter"/>
 <wire x1="0" y1="44" x2="0" y2="1" width="0" layer="20"/>
-<wire x1="0" y1="1" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="107.5" y1="107.5" x2="107.5" y2="0" width="0.1524" layer="47"/>
 <wire x1="107.5" y1="0" x2="164" y2="0" width="0.1524" layer="47"/>
 <wire x1="164" y1="0" x2="164" y2="107.5" width="0.1524" layer="47"/>
@@ -199,7 +191,8 @@ By Jordy Vermeulen
 <text x="29" y="41" size="1.016" layer="22" rot="MR0">Filter</text>
 <text x="9" y="41" size="1.016" layer="22" rot="MR0">Volume</text>
 <text x="-22" y="43" size="1.016" layer="48">Corners pcb
-Signature</text>
+Signature
+GND plane stitching</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
