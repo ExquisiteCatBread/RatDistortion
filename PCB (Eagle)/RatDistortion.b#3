@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -190,9 +190,7 @@ By Jordy Vermeulen
 <text x="51" y="41" size="1.016" layer="22" rot="MR0">Distortion</text>
 <text x="29" y="41" size="1.016" layer="22" rot="MR0">Filter</text>
 <text x="9" y="41" size="1.016" layer="22" rot="MR0">Volume</text>
-<text x="-22" y="43" size="1.016" layer="48">
-Signature
-GND plane stitching</text>
+<text x="-22" y="43" size="1.016" layer="48">Signature</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

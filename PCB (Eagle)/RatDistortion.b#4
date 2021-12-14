@@ -190,7 +190,7 @@ By Jordy Vermeulen
 <text x="51" y="41" size="1.016" layer="22" rot="MR0">Distortion</text>
 <text x="29" y="41" size="1.016" layer="22" rot="MR0">Filter</text>
 <text x="9" y="41" size="1.016" layer="22" rot="MR0">Volume</text>
-<text x="-22" y="43" size="1.016" layer="48">Corners pcb
+<text x="-22" y="43" size="1.016" layer="48">
 Signature
 GND plane stitching</text>
 </plain>
@@ -2112,6 +2112,96 @@ Your Eurocircuits Team
 <vertex x="55" y="0"/>
 <vertex x="55" y="45"/>
 </polygon>
+<via x="1" y="44" extent="1-16" drill="0.35"/>
+<via x="3" y="42" extent="1-16" drill="0.35"/>
+<via x="12" y="43" extent="1-16" drill="0.35"/>
+<via x="7" y="38" extent="1-16" drill="0.35"/>
+<via x="2" y="37" extent="1-16" drill="0.35"/>
+<via x="11" y="40" extent="1-16" drill="0.35"/>
+<via x="8" y="35" extent="1-16" drill="0.35"/>
+<via x="5" y="31" extent="1-16" drill="0.35"/>
+<via x="1" y="30" extent="1-16" drill="0.35"/>
+<via x="2" y="27" extent="1-16" drill="0.35"/>
+<via x="1" y="22" extent="1-16" drill="0.35"/>
+<via x="3" y="18" extent="1-16" drill="0.35"/>
+<via x="1" y="8" extent="1-16" drill="0.35"/>
+<via x="1" y="16" extent="1-16" drill="0.35"/>
+<via x="2" y="12" extent="1-16" drill="0.35"/>
+<via x="9" y="9" extent="1-16" drill="0.35"/>
+<via x="9" y="2" extent="1-16" drill="0.35"/>
+<via x="5" y="1" extent="1-16" drill="0.35"/>
+<via x="13" y="1" extent="1-16" drill="0.35"/>
+<via x="22" y="5" extent="1-16" drill="0.35"/>
+<via x="20" y="1" extent="1-16" drill="0.35"/>
+<via x="25" y="2" extent="1-16" drill="0.35"/>
+<via x="18" y="6" extent="1-16" drill="0.35"/>
+<via x="20.7" y="8.5" extent="1-16" drill="0.35"/>
+<via x="16.8" y="11.5" extent="1-16" drill="0.35"/>
+<via x="21.8" y="17.5" extent="1-16" drill="0.35"/>
+<via x="24.1" y="15.3" extent="1-16" drill="0.35"/>
+<via x="21.5" y="14.3" extent="1-16" drill="0.35"/>
+<via x="23" y="12.3" extent="1-16" drill="0.35"/>
+<via x="19" y="21.3" extent="1-16" drill="0.35"/>
+<via x="18.5" y="19.1" extent="1-16" drill="0.35"/>
+<via x="16.9" y="9" extent="1-16" drill="0.35"/>
+<via x="28.8" y="22.6" extent="1-16" drill="0.35"/>
+<via x="25.8" y="20.6" extent="1-16" drill="0.35"/>
+<via x="28.5" y="18.4" extent="1-16" drill="0.35"/>
+<via x="21.4" y="25.5" extent="1-16" drill="0.35"/>
+<via x="22.9" y="23.6" extent="1-16" drill="0.35"/>
+<via x="26.2" y="30.8" extent="1-16" drill="0.35"/>
+<via x="19.6" y="31.6" extent="1-16" drill="0.35"/>
+<via x="21.6" y="37.6" extent="1-16" drill="0.35"/>
+<via x="30.6" y="29.6" extent="1-16" drill="0.35"/>
+<via x="23.1" y="29.5" extent="1-16" drill="0.35"/>
+<via x="31.9" y="38.5" extent="1-16" drill="0.35"/>
+<via x="36.4" y="29.7" extent="1-16" drill="0.35"/>
+<via x="35.8" y="36.2" extent="1-16" drill="0.35"/>
+<via x="37.6" y="43.7" extent="1-16" drill="0.35"/>
+<via x="29.9" y="43.9" extent="1-16" drill="0.35"/>
+<via x="20.2" y="42.8" extent="1-16" drill="0.35"/>
+<via x="17" y="43.8" extent="1-16" drill="0.35"/>
+<via x="17.2" y="41.1" extent="1-16" drill="0.35"/>
+<via x="53.6" y="43.8" extent="1-16" drill="0.35"/>
+<via x="44.9" y="43.3" extent="1-16" drill="0.35"/>
+<via x="44.9" y="38.4" extent="1-16" drill="0.35"/>
+<via x="41.6" y="37.1" extent="1-16" drill="0.35"/>
+<via x="40.8" y="33.2" extent="1-16" drill="0.35"/>
+<via x="46.2" y="32.6" extent="1-16" drill="0.35"/>
+<via x="50.9" y="30" extent="1-16" drill="0.35"/>
+<via x="50.7" y="38.1" extent="1-16" drill="0.35"/>
+<via x="48.3" y="39.7" extent="1-16" drill="0.35"/>
+<via x="53.7" y="26.6" extent="1-16" drill="0.35"/>
+<via x="43.2" y="20.7" extent="1-16" drill="0.35"/>
+<via x="35.5" y="26" extent="1-16" drill="0.35"/>
+<via x="41.6" y="26" extent="1-16" drill="0.35"/>
+<via x="47.4" y="23.9" extent="1-16" drill="0.35"/>
+<via x="36.4" y="15.9" extent="1-16" drill="0.35"/>
+<via x="49.4" y="18.9" extent="1-16" drill="0.35"/>
+<via x="42.4" y="15.9" extent="1-16" drill="0.35"/>
+<via x="45.4" y="18.9" extent="1-16" drill="0.35"/>
+<via x="51.4" y="11.9" extent="1-16" drill="0.35"/>
+<via x="46.4" y="9.9" extent="1-16" drill="0.35"/>
+<via x="52.4" y="20.9" extent="1-16" drill="0.35"/>
+<via x="40.4" y="9.9" extent="1-16" drill="0.35"/>
+<via x="34.4" y="12.9" extent="1-16" drill="0.35"/>
+<via x="33.4" y="3.9" extent="1-16" drill="0.35"/>
+<via x="41.4" y="1.9" extent="1-16" drill="0.35"/>
+<via x="30.4" y="9.9" extent="1-16" drill="0.35"/>
+<via x="28.4" y="11.9" extent="1-16" drill="0.35"/>
+<via x="53.7" y="1.2" extent="1-16" drill="0.35"/>
+<via x="45.3" y="1.5" extent="1-16" drill="0.35"/>
+<via x="34.9" y="1.4" extent="1-16" drill="0.35"/>
+<via x="41.9" y="7.4" extent="1-16" drill="0.35"/>
+<via x="48.9" y="15.4" extent="1-16" drill="0.35"/>
+<via x="39.9" y="22.4" extent="1-16" drill="0.35"/>
+<via x="32.9" y="17.4" extent="1-16" drill="0.35"/>
+<via x="32.1" y="23" extent="1-16" drill="0.35"/>
+<via x="45.1" y="13" extent="1-16" drill="0.35"/>
+<via x="36.1" y="10" extent="1-16" drill="0.35"/>
+<via x="7.1" y="40.4" extent="1-16" drill="0.35"/>
+<via x="53.1" y="16.5" extent="1-16" drill="0.35"/>
+<via x="49.1" y="43.3" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$2">
 <contactref element="JP1" pad="P$1"/>

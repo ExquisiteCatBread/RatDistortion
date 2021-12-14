@@ -10178,26 +10178,9 @@ NS Package M08A</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-fet" urn="urn:adsk.eagle:library:396">
-<description>&lt;b&gt;Field Effect Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;p&gt;
-&lt;p&gt;
-Symbols changed according to IEC617&lt;p&gt; 
-All types, packages and assignment to symbols and pins checked&lt;p&gt;
-Package outlines partly checked&lt;p&gt;
-&lt;p&gt;
-JFET = junction FET&lt;p&gt;
-IGBT-x = insulated gate bipolar transistor&lt;p&gt;
-x=N: NPN; x=P: PNP&lt;p&gt;
-IGFET-mc-nnn; (IGFET=insulated gate field effect transistor)&lt;P&gt;
-m=D: depletion mode (Verdr&amp;auml;ngungstyp)&lt;p&gt;
-m=E: enhancement mode (Anreicherungstyp)&lt;p&gt;
-c: N=N-channel; P=P-Channel&lt;p&gt;
-GDSB: gate, drain, source, bulk&lt;p&gt;
-&lt;p&gt;
-by R. Vogg  15.March.2002</description>
+<library name="2N5458_2">
 <packages>
-<package name="TO92" urn="urn:adsk.eagle:footprint:28459/1" library_version="5">
+<package name="TO92" urn="urn:adsk.eagle:footprint:28459/1">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
 <wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.781"/>
 <wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.3185"/>
@@ -10218,42 +10201,17 @@ by R. Vogg  15.March.2002</description>
 <text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
 <text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
 </package>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:28476/1" library_version="5">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.1854" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="-0.6576" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1854" width="0.1524" layer="21"/>
-<wire x1="0.6326" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
 </packages>
 <packages3d>
-<package3d name="TO92" urn="urn:adsk.eagle:package:28523/2" type="model" library_version="5">
+<package3d name="TO92" urn="urn:adsk.eagle:package:28523/2" type="model">
 <description>TO 92</description>
 <packageinstances>
 <packageinstance name="TO92"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:28534/2" type="model" library_version="5">
-<description>SOT-23</description>
-<packageinstances>
-<packageinstance name="SOT23"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
-<symbol name="JFET-N" urn="urn:adsk.eagle:symbol:28461/1" library_version="5">
+<symbol name="JFET-N">
 <wire x1="0" y1="-3.81" x2="0" y2="3.81" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-1.905" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-3.175" width="0.254" layer="94"/>
@@ -10268,14 +10226,13 @@ by R. Vogg  15.March.2002</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="?20*" urn="urn:adsk.eagle:component:28626/4" prefix="Q" library_version="5">
-<description>&lt;b&gt;TEMIC / Siliconix N-Channel JFET&lt;/b&gt;&lt;p&gt;
-Source: JFET-J201_Siliconix_data.pdf</description>
+<deviceset name="2N5458" prefix="Q">
+<description>2N5458 JFET transistor</description>
 <gates>
 <gate name="G$1" symbol="JFET-N" x="0" y="0"/>
 </gates>
 <devices>
-<device name="J" package="TO92">
+<device name="TO92" package="TO92">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -10285,36 +10242,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:28523/2"/>
 </package3dinstances>
 <technologies>
-<technology name="1">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="2">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="4">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SST" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="G" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28534/2"/>
-</package3dinstances>
-<technologies>
-<technology name="1">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="2">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="4">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10385,7 +10313,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <part name="VR2" library="PTV09A-4225F-B104" deviceset="PTV09A-4225F-B104" device=""/>
 <part name="VR3" library="PTV09A-4225F-B104" deviceset="PTV09A-4225F-B104" device=""/>
 <part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1" value="100mA"/>
-<part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="?20*" device="J" package3d_urn="urn:adsk.eagle:package:28523/2" technology="1" value="2N5458"/>
+<part name="Q1" library="2N5458_2" deviceset="2N5458" device="TO92" package3d_urn="urn:adsk.eagle:package:28523/2" value="2N5458"/>
 </parts>
 <sheets>
 <sheet>

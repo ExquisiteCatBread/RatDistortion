@@ -199,7 +199,8 @@ By Jordy Vermeulen
 <text x="29" y="41" size="1.016" layer="22" rot="MR0">Filter</text>
 <text x="9" y="41" size="1.016" layer="22" rot="MR0">Volume</text>
 <text x="-22" y="43" size="1.016" layer="48">Corners pcb
-Signature</text>
+Signature
+GND plane stitching</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

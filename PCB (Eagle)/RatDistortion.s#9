@@ -8654,8 +8654,8 @@ NS Package M08A</description>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22n"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2M"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1n"/>
 <part name="D2" library="1N914" deviceset="1N914" device=".2"/>
 <part name="D3" library="1N914" deviceset="1N914" device=".2"/>
@@ -8663,6 +8663,11 @@ NS Package M08A</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.5k"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="3.3n"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22n"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1u"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8676,7 +8681,8 @@ NS Package M08A</description>
 <text x="7.62" y="-20.32" size="1.778" layer="91">
 100k pot</text>
 <text x="-53.34" y="48.26" size="1.778" layer="91">bypass switch
-POWER LED</text>
+POWER LED
+pods</text>
 <text x="-55.88" y="-15.24" size="1.778" layer="91">Clipping stage
 -LM308 opamp
 -(1M//1M)//(1K+40M)=494K ohm input impedance</text>
@@ -8687,6 +8693,12 @@ https://www.electrosmash.com/proco-rat</text>
 100k pot</text>
 <text x="-58.42" y="-86.36" size="1.778" layer="91">Tone control stage
 -Variable low pass filter</text>
+<text x="-78.74" y="-121.92" size="1.778" layer="91">Output stage
+-low output inpedance
+-JFET unitary gain amp
+-isolates volume control from tone control</text>
+<text x="-12.7" y="-144.78" size="1.778" layer="91" rot="R90">
+100k pot</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="15.24" y="17.78" smashed="yes">
@@ -8746,19 +8758,19 @@ https://www.electrosmash.com/proco-rat</text>
 <attribute name="NAME" x="-52.07" y="-64.135" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-52.07" y="-55.88" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP5" gate="G$1" x="127" y="-30.48" smashed="yes">
-<attribute name="NAME" x="120.65" y="-27.305" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.65" y="-35.56" size="1.778" layer="96"/>
+<instance part="JP5" gate="G$1" x="5.08" y="-139.7" smashed="yes">
+<attribute name="NAME" x="-1.27" y="-136.525" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="-144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="JP6" gate="G$1" x="127" y="-40.64" smashed="yes">
-<attribute name="NAME" x="120.65" y="-37.465" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.65" y="-45.72" size="1.778" layer="96"/>
+<instance part="JP6" gate="G$1" x="5.08" y="-149.86" smashed="yes">
+<attribute name="NAME" x="-1.27" y="-146.685" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="-154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="-48.26" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="-50.8" y="-66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="116.84" y="-43.18" smashed="yes">
-<attribute name="VALUE" x="114.3" y="-45.72" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="-5.08" y="-152.4" smashed="yes">
+<attribute name="VALUE" x="-7.62" y="-154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="-17.78" y="-27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="-18.161" y="-26.416" size="1.778" layer="95" rot="R90"/>
@@ -8844,6 +8856,25 @@ https://www.electrosmash.com/proco-rat</text>
 <instance part="GND9" gate="1" x="-27.94" y="-106.68" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="-109.22" size="1.778" layer="96"/>
 </instance>
+<instance part="C12" gate="G$1" x="-45.72" y="-132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="-46.101" y="-130.556" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-41.021" y="-130.556" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R11" gate="G$1" x="-38.1" y="-139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-39.5986" y="-143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-34.798" y="-143.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R12" gate="G$1" x="-27.94" y="-139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-29.4386" y="-143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-24.638" y="-143.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C13" gate="G$1" x="-20.32" y="-134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="-20.701" y="-133.096" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-15.621" y="-133.096" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND10" gate="1" x="-38.1" y="-147.32" smashed="yes">
+<attribute name="VALUE" x="-40.64" y="-149.86" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8871,6 +8902,10 @@ https://www.electrosmash.com/proco-rat</text>
 <pinref part="IC1" gate="A" pin="V+"/>
 <wire x1="7.62" y1="-43.18" x2="7.62" y2="-40.64" width="0.1524" layer="91"/>
 <label x="7.62" y="-43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-27.94" y1="-121.92" x2="-27.94" y2="-124.46" width="0.1524" layer="91"/>
+<label x="-27.94" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4.5V" class="0">
@@ -8924,7 +8959,10 @@ https://www.electrosmash.com/proco-rat</text>
 <segment>
 <pinref part="JP6" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="124.46" y1="-40.64" x2="116.84" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-149.86" x2="-5.08" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-149.86" x2="-10.16" y2="-149.86" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-149.86"/>
+<wire x1="-10.16" y1="-149.86" x2="-10.16" y2="-142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -8959,6 +8997,13 @@ https://www.electrosmash.com/proco-rat</text>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="-144.78" x2="-27.94" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<junction x="-38.1" y="-144.78"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9119,6 +9164,38 @@ https://www.electrosmash.com/proco-rat</text>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="-38.1" y1="-96.52" x2="-40.64" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="-40.64" y1="-132.08" x2="-38.1" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-132.08" x2="-38.1" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-132.08" x2="-33.02" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-132.08"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="-134.62" x2="-27.94" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-134.62" x2="-27.94" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-134.62"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="-134.62" x2="-10.16" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-134.62" x2="-10.16" y2="-137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="-139.7" x2="2.54" y2="-139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

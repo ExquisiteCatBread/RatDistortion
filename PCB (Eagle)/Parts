@@ -1,6 +1,6 @@
 Partlist
 
-Exported from RatDistortion.sch at 14-12-2021 20:43
+Exported from RatDistortion.sch at 14-12-2021 22:04
 
 EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
 
@@ -35,7 +35,7 @@ JP6                        PINHD-1X1-BIGPOGO 1X1-BIGPOGO adafruit          1
 JP7                        PINHD-1X1-BIGPOGO 1X1-BIGPOGO adafruit          1
 JP8                        PINHD-1X1-BIGPOGO 1X1-BIGPOGO adafruit          1
 LED1                       LED3MM            LED3MM      adafruit          1
-Q1       2N5458            J201              TO92        transistor-fet    1
+Q1       2N5458            2N5458TO92        TO92        2N5458_2          1
 R1       47                R-EU_R0603        R0603       rcl               1
 R2       100k              R-EU_R0603        R0603       rcl               1
 R3       100k              R-EU_R0603        R0603       rcl               1
