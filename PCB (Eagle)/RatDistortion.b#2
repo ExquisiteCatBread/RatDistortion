@@ -189,7 +189,6 @@
 <text x="51" y="41" size="1.016" layer="22" rot="MR0">Distortion</text>
 <text x="29" y="41" size="1.016" layer="22" rot="MR0">Filter</text>
 <text x="9" y="41" size="1.016" layer="22" rot="MR0">Volume</text>
-<text x="-22" y="43" size="1.016" layer="48">Signature</text>
 <rectangle x1="32.7" y1="2.02" x2="32.94" y2="2.06" layer="21"/>
 <rectangle x1="37.1" y1="2.02" x2="37.26" y2="2.06" layer="21"/>
 <rectangle x1="37.3" y1="2.02" x2="37.34" y2="2.06" layer="21"/>

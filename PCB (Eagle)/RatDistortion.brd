@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -182,8 +182,8 @@
 </text>
 <text x="2" y="7" size="0.8128" layer="21">IN+</text>
 <text x="6" y="7" size="0.8128" layer="21">IN-</text>
-<text x="10" y="7" size="0.8128" layer="21">LED-</text>
-<text x="14" y="7" size="0.8128" layer="21">LED+</text>
+<text x="10" y="7" size="0.8128" layer="21">GND</text>
+<text x="14" y="7" size="0.8128" layer="21">LED</text>
 <text x="47" y="7" size="0.8128" layer="21">OUT+</text>
 <text x="51" y="7" size="0.8128" layer="21">OUT-</text>
 <text x="51" y="41" size="1.016" layer="22" rot="MR0">Distortion</text>
