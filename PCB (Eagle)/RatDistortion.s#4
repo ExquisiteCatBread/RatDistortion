@@ -8105,129 +8105,6 @@ general purpose rectifier, 1 A</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="696103201002">
-<packages>
-<package name="696103201002">
-<description>&lt;b&gt;WR-FSH Fuseholder THR Blocks PCB Clip Cover</description>
-<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.127" layer="39">
-<vertex x="-12.7" y="5"/>
-<vertex x="12.7" y="5"/>
-<vertex x="12.7" y="-5"/>
-<vertex x="-12.7" y="-5"/>
-</polygon>
-<wire x1="-12.4" y1="4.7" x2="12.4" y2="4.7" width="0.1" layer="51"/>
-<wire x1="12.4" y1="4.7" x2="12.4" y2="-4.7" width="0.1" layer="51"/>
-<wire x1="12.4" y1="-4.7" x2="-12.4" y2="-4.7" width="0.1" layer="51"/>
-<wire x1="-12.4" y1="-4.7" x2="-12.4" y2="4.7" width="0.1" layer="51"/>
-<wire x1="-12.5" y1="4.8" x2="12.5" y2="4.8" width="0.2" layer="21"/>
-<wire x1="12.5" y1="-4.8" x2="-12.5" y2="-4.8" width="0.2" layer="21"/>
-<wire x1="-12.5" y1="4.8" x2="-12.5" y2="0.5" width="0.2" layer="21"/>
-<wire x1="-12.5" y1="-4.8" x2="-12.5" y2="-0.5" width="0.2" layer="21"/>
-<wire x1="12.5" y1="4.8" x2="12.5" y2="0.5" width="0.2" layer="21"/>
-<wire x1="12.5" y1="-4.8" x2="12.5" y2="-0.5" width="0.2" layer="21"/>
-<pad name="1" x="-11.25" y="0" drill="1.3"/>
-<pad name="2" x="11.25" y="0" drill="1.3"/>
-</package>
-</packages>
-<symbols>
-<symbol name="WR-FSH">
-<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-5.08" y1="-1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="696103201002" prefix="J">
-<description>&lt;b&gt;WR-FSH Fuseholder THR Blocks PCB Clip Cover
-&lt;br&gt;
-&lt;br&gt;
-MATERIAL PROPERTIES 
-&lt;br&gt;&lt;br&gt;
-&lt;/b&gt;Insulator Material PETG35 
-&lt;br&gt;Insulator Flammability Rating UL94 V-0 
-&lt;br&gt;Insulator Color Black 
-&lt;br&gt;Contact Material Copper Alloy 
-&lt;br&gt;Contact Plating Tin over Nickel 
-&lt;br&gt;Contact Type Stamped 
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;GENERAL INFORMATION  
-&lt;br&gt;&lt;br&gt;
-&lt;/b&gt;Operating Temperature -30 up to +120 °C 
-&lt;br&gt;Compliance RoHS 
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;ELECTRICAL PROPERTIES 
-&lt;br&gt;&lt;br&gt;
-&lt;/b&gt;IR UL 20 A 
-&lt;br&gt;IR VDE 10 A 
-&lt;br&gt;Working Voltage [UL] 250 V (AC) 
-&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
-&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
-&lt;br&gt;Withstanding Voltage [VDE] 1500 V (AC) 
-&lt;br&gt;Contact Resistance 10 mΩ 
-&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;MECHANICAL PROPERTIES 
-&lt;br&gt;&lt;br&gt;
-&lt;/b&gt;Protection Class I &amp; II 
-&lt;br&gt;Fuse Size 5x20 mm 
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;CERTIFICATION 
-&lt;br&gt;&lt;br&gt;
-&lt;/b&gt;cULus Approval E157417 
-&lt;br&gt;VDE Approval 120170 
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;PACKAGING PROPERTIES 
-&lt;br&gt;&lt;br&gt;
-&lt;/b&gt;Packaging Box 
-
-&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o58927v209%20Family_p748_WR-FUSE_6961032010xx_4C.jpg"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o58927v209%20Family_p748_WR-FUSE_6961032010xx_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THR_PCB_CLIP_COVER_696103201002"&gt;https://katalog.we-online.com/en/em/FSH_THR_PCB_CLIP_COVER_696103201002&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2019-10-25&lt;br&gt;
-2019 (C) Wurth Elektronik &lt;a href="https://pricing.snapeda.com/parts/696103201002/Wurth%20Electronics/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="696103201002">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Fuse Block 20 A 250V 1 Circuit Cartridge Through Hole "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="696103201002"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/696103201002/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="1X01" urn="urn:adsk.eagle:footprint:6240008/1" library_version="2">
@@ -9098,6 +8975,42 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="1812" urn="urn:adsk.eagle:footprint:6239675/1" library_version="2">
+<description>Multilayer SMD</description>
+<wire x1="-2.3" y1="0" x2="2.4" y2="0" width="0.127" layer="51"/>
+<wire x1="-2.8004" y1="1.7113" x2="2.8004" y2="1.7113" width="0.127" layer="21"/>
+<wire x1="2.8004" y1="1.7113" x2="2.8004" y2="-1.7113" width="0.127" layer="51"/>
+<wire x1="2.8004" y1="-1.7113" x2="-2.8004" y2="-1.7113" width="0.127" layer="21"/>
+<wire x1="-2.8004" y1="-1.7113" x2="-2.8004" y2="1.7113" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="0" x2="1.7" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.07" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.07" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.07" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.07" layer="51"/>
+<smd name="1" x="-2.046" y="0" dx="2.286" dy="2.794" layer="1"/>
+<smd name="2" x="2.046" y="0" dx="2.286" dy="2.794" layer="1"/>
+<text x="-1.8575" y="1.905" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-1.8575" y="-2.54" size="0.6096" layer="25">&gt;NAME</text>
+<rectangle x1="-0.9" y1="-0.3" x2="0.9" y2="0.3" layer="21"/>
+<rectangle x1="-0.6" y1="-0.3" x2="0.5" y2="0.3" layer="21"/>
+</package>
+<package name="R1206" urn="urn:adsk.eagle:footprint:6239923/1" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.397" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.397" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X01" urn="urn:adsk.eagle:package:6240654/1" type="box" library_version="2">
@@ -9344,6 +9257,19 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstance name="SMLK34"/>
 </packageinstances>
 </package3d>
+<package3d name="1812" urn="urn:adsk.eagle:package:6240348/1" type="box" library_version="2">
+<description>Multilayer SMD</description>
+<packageinstances>
+<packageinstance name="1812"/>
+</packageinstances>
+</package3d>
+<package3d name="R1206" urn="urn:adsk.eagle:package:6240569/1" type="box" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<packageinstances>
+<packageinstance name="R1206"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="PINHD1" urn="urn:adsk.eagle:symbol:6239504/1" library_version="2">
@@ -9379,6 +9305,14 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="FUSE" urn="urn:adsk.eagle:symbol:6239571/1" library_version="2">
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-126.869898"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="180"/>
+<text x="-3.81" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="-5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9864,6 +9798,38 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="PTCFUSE" urn="urn:adsk.eagle:component:6241062/1" prefix="F" uservalue="yes" library_version="2">
+<description>PTC fuses, resettable thermistors</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="-1812" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240348/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1206" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240569/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="linear" urn="urn:adsk.eagle:library:262">
@@ -10324,7 +10290,6 @@ NS Package M08A</description>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="696103201002" deviceset="696103201002" device=""/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="-BIGPOGO" package3d_urn="urn:adsk.eagle:package:6240953/1" value="9v"/>
 <part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="-BIGPOGO" package3d_urn="urn:adsk.eagle:package:6240953/1" value="GND"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10370,6 +10335,7 @@ NS Package M08A</description>
 <part name="VR2" library="PTV09A-4225F-B104" deviceset="PTV09A-4225F-B104" device=""/>
 <part name="VR3" library="PTV09A-4225F-B104" deviceset="PTV09A-4225F-B104" device=""/>
 <part name="JN1" library="2N5458" deviceset="2N5458" device=""/>
+<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1" value="100mA"/>
 </parts>
 <sheets>
 <sheet>
@@ -10379,7 +10345,6 @@ NS Package M08A</description>
 -Reverse polarity pretection diode
 -Low pass filter
 -Voltage divider (4.5 volts as virtual GND)</text>
-<text x="0" y="22.86" size="1.778" layer="91">200mA</text>
 <text x="167.64" y="27.94" size="1.778" layer="91">
 100k pot</text>
 <text x="91.44" y="33.02" size="1.778" layer="91">Clipping stage
@@ -10436,10 +10401,6 @@ https://stinkfoot.se/archives/2233</text>
 </instance>
 <instance part="GND3" gate="1" x="58.42" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="55.88" y="-10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="J1" gate="G$1" x="2.54" y="17.78" smashed="yes">
-<attribute name="NAME" x="2.54" y="20.32" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="-7.62" y="13.97" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="G$1" x="-20.32" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="-23.495" y="29.21" size="1.778" layer="95" rot="R90"/>
@@ -10609,6 +10570,10 @@ https://stinkfoot.se/archives/2233</text>
 <attribute name="NAME" x="31.749859375" y="-49.529859375" size="1.77806875" layer="95" rot="R90"/>
 <attribute name="VALUE" x="39.373059375" y="-49.526940625" size="1.77943125" layer="96" rot="R90"/>
 </instance>
+<instance part="F1" gate="G$1" x="2.54" y="15.24" smashed="yes">
+<attribute name="VALUE" x="-1.27" y="13.97" size="1.778" layer="96"/>
+<attribute name="NAME" x="-1.27" y="20.32" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10752,18 +10717,12 @@ https://stinkfoot.se/archives/2233</text>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="33.02" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="17.78" x2="-5.08" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10973,6 +10932,13 @@ https://stinkfoot.se/archives/2233</text>
 <wire x1="172.72" y1="15.24" x2="172.72" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="172.72" y="15.24"/>
 <junction x="172.72" y="-2.54"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="17.78" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

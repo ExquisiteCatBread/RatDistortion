@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-12-15T19:17:39Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.586,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "RatDistortion"
+        },
+        "Owner": "Jordy Vermeulen <vermeulen.jordy@gmail.com>",
+        "Size": {
+            "X": 55,
+            "Y": 45
+        }
+    }
+}
