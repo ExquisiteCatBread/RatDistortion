@@ -3,6 +3,6 @@ Guitar pedal based on Proco RAT
 
 See "Distortion pedal project documentation.pdf"
 
-![RAT distortion pedal](Pictures/Pedal (4).jpg)
+![RAT_distortion_pedal](Pictures/Pedal.jpg)
 
 WIP
