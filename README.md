@@ -5,4 +5,3 @@ See "Distortion pedal project documentation.pdf"
 
 ![RAT_distortion_pedal](Pictures/Pedal.jpg)
 
-WIP
